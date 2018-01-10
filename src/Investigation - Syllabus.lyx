@@ -1,0 +1,304 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\date{}
+\end_preamble
+\use_default_options false
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+Format 49
+PackageOptions url hyphens
+Requires url
+\end_local_layout
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman times
+\font_sans helvet
+\font_typewriter courier
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 0
+\use_package mathtools 1
+\use_package mhchem 0
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\boxbgcolor #55aaff
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1.5in
+\topmargin 1.5in
+\rightmargin 1.5in
+\bottommargin 1.5in
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle headings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+\noindent
+
+\series bold
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-.75in}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Investigation: The Who, What, and Where of Apps
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -0.6in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\bar under
+Contact Info
+\end_layout
+
+\begin_layout Standard
+\align center
+Name: Donald Wilcox
+\end_layout
+
+\begin_layout Standard
+\align center
+Email: 
+\begin_inset CommandInset href
+LatexCommand href
+name "dw@jogral.io"
+target "mailto:dw@jogral.io"
+type "mailto:"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Overview
+\end_layout
+
+\begin_layout Standard
+The US experienced nearly 36% growth in 
+\begin_inset Quotes eld
+\end_inset
+
+computer/mathematical
+\begin_inset Quotes erd
+\end_inset
+
+ jobs between 2005 and 2015.
+ The advent of coding academies, learning tools, and academic programs geared
+ to accommodate this growth has led to several entry level professionals,
+ jobs, and entrepreneurs.
+ Technical roles require professionals to do plenty of investigating on
+ apps, servers, domains, etc., but many are lost on how to do this.
+ This course will address how to use essential tools for investigation in
+ the day-to-day work of a developer.
+\end_layout
+
+\begin_layout Section
+Duration
+\end_layout
+
+\begin_layout Standard
+This is a 4-hour course.
+\end_layout
+
+\begin_layout Section
+Objectives
+\end_layout
+
+\begin_layout Itemize
+Gain a fundamental understanding of networking for websites
+\end_layout
+
+\begin_layout Itemize
+Use command line and web tools to investigate domains and IPs
+\end_layout
+
+\begin_layout Itemize
+Structure and evaluate methods of application deployments
+\end_layout
+
+\begin_layout Section
+Key Takeaways
+\end_layout
+
+\begin_layout Standard
+After this course, you will be able to:
+\end_layout
+
+\begin_layout Itemize
+Know how to find out owners of a domain name
+\end_layout
+
+\begin_layout Itemize
+Know how to find the IP address and host a website runs on
+\end_layout
+
+\begin_layout Itemize
+Choose your own approach to delivering web applications
+\end_layout
+
+\begin_layout Section
+Prerequisites
+\end_layout
+
+\begin_layout Itemize
+None--just an interest in technology
+\end_layout
+
+\begin_layout Section
+Required Materials
+\end_layout
+
+\begin_layout Standard
+For this, you will need the following:
+\end_layout
+
+\begin_layout Itemize
+Workbook (provided)
+\end_layout
+
+\begin_layout Itemize
+Computer (either a Macbook, laptop with Linux, or Windows with a Linux virtual
+ machine or Docker)
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+For Windows users, we recommend Docker; however, if you need to create a
+ virtual machine, we recommend:
+\end_layout
+
+\begin_layout Itemize
+VirtualBox -- 
+\begin_inset CommandInset href
+LatexCommand href
+target "https://www.virtualbox.org"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+A Linux distro -- Ubuntu (
+\begin_inset CommandInset href
+LatexCommand href
+target "https://www.ubuntu.com/download/desktop"
+
+\end_inset
+
+) is easiest, but any will do.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Schedule/Topics Discussed
+\end_layout
+
+\begin_layout Itemize
+Using the terminal (OS X and Unix/Linux, partial Windows)
+\end_layout
+
+\begin_layout Itemize
+Finding/verifying DNS records
+\end_layout
+
+\begin_layout Itemize
+Finding/verifying WHOIS entries
+\end_layout
+
+\begin_layout Itemize
+Lab: find the stack
+\end_layout
+
+\end_body
+\end_document

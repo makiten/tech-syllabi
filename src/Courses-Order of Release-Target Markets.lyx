@@ -1,0 +1,261 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass amsart
+\begin_preamble
+\usepackage{enumitem}
+\renewcommand{\theenumi}{\alph{enumi}}
+\renewcommand{\theenumii}{\arabic{enumii}}
+\renewcommand{\labelenumii}{\theenumii.}
+\fancyhf{}% Clear fancy header/footer
+\fancyhead[L]{MA 715}% My name in Left footer
+\fancyhead[C]{Donald Wilcox}% My name in Center header
+\fancyhead[R]{Assignment 1}% My name in Center header
+\fancyfoot[R]{\thepage}% Page number in Right footer
+\makeatletter
+\let\ps@plain\ps@fancy% Plain page style = fancy page style
+\makeatother
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing double
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 4cm
+\rightmargin 2cm
+\bottommargin 4cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip bigskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section*
+Courses--Order of Release
+\end_layout
+
+\begin_layout Enumerate
+Investigation: The Who, What, and Where of Apps
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+This course will cover an overlooked part of coding: investigating problems.
+ When companies and developers inherit apps and websites, the first thing
+ to do is to know how it's managed to know what to expect.
+ This course will cover how to find the information you need to get started.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Deploying your apps with Travis & Jenkins
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+So you've built an app...
+ Great! Now it's time to make it go live.
+ But deployment is a repetitious, meticulous process, and this course will
+ teach you how to automate deployment for quicker delivery and less stressful
+ development.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Writing for Success: Creating Software Specifications
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+There's more to coding than code.
+ Well-supported and well-made software rely heavily on written documentation.
+ This course will cover how to write a software specification, which is
+ a design document that helps teams build great software efficiently and
+ effectively.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Estimate Right: Smart Software Project Planning
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+One of the biggest problems in offering technical services is 
+\series bold
+ambiguity
+\series default
+.
+ Estimating cost, effort, and time can be extremely difficult.
+ This course will go over how to plan for software projects, including overcomin
+g ambiguous requirements, determing how to measure effort, and risk planning.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Introductory Asynchronous Programming
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+In coding, work can be computational (CPU-bound) or I/O (I/O-bound).
+ When code causes slowdowns, asynchronous work can be necessary to make
+ the software more efficient.
+ This course will cover when and how to work asynchronously using Python
+ libraries.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Intro Network Programming: Building your own chat client
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+This course will walk through building an online chat program.
+ We will cover topics like sockets, best approaches, and integration.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Microservices with Openwhisk
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+Microservice architecture
+\begin_inset Quotes erd
+\end_inset
+
+ is defined as a style that combines small services that serve one purpose
+ into an application.
+ This course will discuss the terminology behind microservices, its design,
+ and then we will build our own microservices using Openwhisk, and open
+ source 
+\begin_inset Quotes eld
+\end_inset
+
+serverless computing
+\begin_inset Quotes erd
+\end_inset
+
+ application.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Creating REST services
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Representational state transfer, or REST, is a method of providing communication
+ between systems using the Internet.
+ This course will cover the growth of REST APIs, working with existing APIs,
+ and building a simple REST API on the cloud.
+\end_layout
+
+\end_deeper
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Section*
+Our Target Markets
+\end_layout
+
+\begin_layout Itemize
+Recent coding school graduates
+\end_layout
+
+\begin_layout Itemize
+Establish professionals
+\end_layout
+
+\begin_layout Itemize
+New tech entrepreneurs
+\end_layout
+
+\begin_layout Itemize
+Secondary school students
+\end_layout
+
+\begin_layout Itemize
+Workforce training organizations
+\end_layout
+
+\begin_layout Itemize
+IT departments
+\end_layout
+
+\begin_layout Itemize
+IT service companies
+\end_layout
+
+\end_body
+\end_document

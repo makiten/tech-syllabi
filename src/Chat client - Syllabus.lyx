@@ -1,0 +1,269 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\date{}
+\end_preamble
+\use_default_options false
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+Format 49
+PackageOptions url hyphens
+Requires url
+\end_local_layout
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman times
+\font_sans helvet
+\font_typewriter courier
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 0
+\use_package mathtools 1
+\use_package mhchem 0
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\boxbgcolor #55aaff
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1.5in
+\topmargin 1.5in
+\rightmargin 1.5in
+\bottommargin 1.5in
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle headings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+\noindent
+
+\series bold
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-.75in}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Network Programming: Creating your own chat client
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -0.6in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\bar under
+Contact Info
+\end_layout
+
+\begin_layout Standard
+\align center
+Name: Donald Wilcox
+\end_layout
+
+\begin_layout Standard
+\align center
+Email: 
+\begin_inset CommandInset href
+LatexCommand href
+name "dw@jogral.io"
+target "mailto:dw@jogral.io"
+type "mailto:"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Overview
+\end_layout
+
+\begin_layout Standard
+Network programming is a great specialty to develop to better understand
+ how to communicate between computers (or services).
+ While most applications are primarily focused on storing data, we use many
+ services that heavily depend on networking, such as chat services.
+ This course is an introduction to network programming using Python or .NET.
+ We will learn about client/server architecture, and eventually build a
+ chat client for a server built specifically for this course.
+\end_layout
+
+\begin_layout Section
+Duration
+\end_layout
+
+\begin_layout Standard
+This is a 6-hour course.
+\end_layout
+
+\begin_layout Section
+Objectives
+\end_layout
+
+\begin_layout Itemize
+Understand sockets and ports
+\end_layout
+
+\begin_layout Itemize
+Learn the basics of socket programming
+\end_layout
+
+\begin_layout Itemize
+Understand the basics of client/server architecture
+\end_layout
+
+\begin_layout Itemize
+Build a basic terminal-based chat client
+\end_layout
+
+\begin_layout Section
+Key Takeaways
+\end_layout
+
+\begin_layout Standard
+After this course, you will be able to:
+\end_layout
+
+\begin_layout Itemize
+Know how to create sockets (Unix and web)
+\end_layout
+
+\begin_layout Itemize
+Know how to build a basic server
+\end_layout
+
+\begin_layout Itemize
+Use Python/.NET to build a chat client
+\end_layout
+
+\begin_layout Section
+Prerequisites
+\end_layout
+
+\begin_layout Itemize
+Requires a working knowledge of Python, C#, or another programming language
+\end_layout
+
+\begin_layout Section
+Required Materials
+\end_layout
+
+\begin_layout Standard
+For this, you will need the following:
+\end_layout
+
+\begin_layout Itemize
+Workbook (provided)
+\end_layout
+
+\begin_layout Itemize
+Laptop with Docker
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Schedule/Topics Discussed
+\end_layout
+
+\begin_layout Itemize
+Introduction to networking
+\end_layout
+
+\begin_layout Itemize
+Types of network sockets
+\end_layout
+
+\begin_layout Itemize
+Basics of client-server interaction
+\end_layout
+
+\begin_layout Itemize
+Developing a client-server application in Python or C#
+\end_layout
+
+\end_body
+\end_document

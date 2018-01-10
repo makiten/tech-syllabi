@@ -1,0 +1,286 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\date{}
+\end_preamble
+\use_default_options false
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+Format 49
+PackageOptions url hyphens
+Requires url
+\end_local_layout
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman times
+\font_sans helvet
+\font_typewriter courier
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 0
+\use_package mathtools 1
+\use_package mhchem 0
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\boxbgcolor #55aaff
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1.5in
+\topmargin 1.5in
+\rightmargin 1.5in
+\bottommargin 1.5in
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle headings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+\noindent
+
+\series bold
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-.75in}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Creating REST services
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -0.6in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\bar under
+Contact Info
+\end_layout
+
+\begin_layout Standard
+\align center
+Name: Donald Wilcox
+\end_layout
+
+\begin_layout Standard
+\align center
+Email: 
+\begin_inset CommandInset href
+LatexCommand href
+name "dw@jogral.io"
+target "mailto:dw@jogral.io"
+type "mailto:"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Overview
+\end_layout
+
+\begin_layout Standard
+Representational state transfer, or REST, is a method of providing communication
+ between systems using the Internet.
+ With the advent of mobile apps and the need to couple different services
+ into a single application, REST APIs has been the common way of linking
+ together different functions.
+ In fact, Uber was built primarily as a combination of various REST APIs
+ from other vendors, such as Google, MapBox, and Google again for maps;
+ Twilio for text and voice communications; and indeed, Uber 
+\emph on
+itself
+\emph default
+ provides APIs for other apps, such as the United Airlines.
+ This course will cover the approaches to building REST services and building
+ our own REST API.
+\end_layout
+
+\begin_layout Section
+Duration
+\end_layout
+
+\begin_layout Standard
+This is a 4-hour course.
+\end_layout
+
+\begin_layout Section
+Objectives
+\end_layout
+
+\begin_layout Itemize
+Understand HTTP communication
+\end_layout
+
+\begin_layout Itemize
+Understand what is an API
+\end_layout
+
+\begin_layout Itemize
+Understand different methods of authorization and management of REST APIs
+\end_layout
+
+\begin_layout Itemize
+Consuming and creating a REST API
+\end_layout
+
+\begin_layout Section
+Key Takeaways
+\end_layout
+
+\begin_layout Standard
+After this course, you will be able to:
+\end_layout
+
+\begin_layout Itemize
+Know how to consume a REST API
+\end_layout
+
+\begin_layout Itemize
+Know how to create a simple REST API
+\end_layout
+
+\begin_layout Section
+Prerequisites
+\end_layout
+
+\begin_layout Itemize
+Requires a working knowledge of Python, Javascript, or another programming
+ language.
+ Our 
+\emph on
+Network Programming
+\emph default
+ course is also preferable to understand how HTTP works.
+\end_layout
+
+\begin_layout Section
+Required Materials
+\end_layout
+
+\begin_layout Standard
+For this, you will need the following:
+\end_layout
+
+\begin_layout Itemize
+Workbook (provided)
+\end_layout
+
+\begin_layout Itemize
+Laptop with Docker
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Schedule/Topics Discussed
+\end_layout
+
+\begin_layout Itemize
+Basics of HTTP
+\end_layout
+
+\begin_layout Itemize
+How REST relates with HTTP
+\end_layout
+
+\begin_layout Itemize
+Definition of API
+\end_layout
+
+\begin_layout Itemize
+Authorizing use of REST APIs
+\end_layout
+
+\begin_layout Itemize
+Consuming vendor REST APIs
+\end_layout
+
+\begin_layout Itemize
+Creating your own REST API
+\end_layout
+
+\end_body
+\end_document

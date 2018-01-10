@@ -1,0 +1,315 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\date{}
+\end_preamble
+\use_default_options false
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+Format 49
+PackageOptions url hyphens
+Requires url
+\end_local_layout
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman times
+\font_sans helvet
+\font_typewriter courier
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 0
+\use_package mathtools 1
+\use_package mhchem 0
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\boxbgcolor #55aaff
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1.5in
+\topmargin 1.5in
+\rightmargin 1.5in
+\bottommargin 1.5in
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle headings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+\noindent
+
+\series bold
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-.75in}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Introdução a Clojure (Lisp)
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -0.6in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\bar under
+Informações de contato
+\end_layout
+
+\begin_layout Standard
+\align center
+Nome de instrutor: Donald Wilcox
+\end_layout
+
+\begin_layout Standard
+\align center
+E-mail: 
+\begin_inset CommandInset href
+LatexCommand href
+name "dw@jogral.io"
+target "mailto:dw@jogral.io"
+type "mailto:"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Resumo
+\end_layout
+
+\begin_layout Standard
+Clojure é um dialeto da linguagem de programação Lisp executada na Máquina
+ Virtual Java (JVM) por padrão.
+ É uma linguagem de programação funcional, cual é usada nas áreas como a
+ inteligência artificial, as tarefas simultâneas/a concorrência e a computação
+ matemática.
+ Além disso, linguagens de programação funcional assim como Javascript já
+ tornaram-se mais popular hoje em dia nos startups e mesmo nas companhias
+ como a Walmart.
+\end_layout
+
+\begin_layout Standard
+O objetivo deste curso é aprender como programar em linguagens de programação
+ funcional na maneira simples de entender e útil para que você pode obter
+ o conhecimento na sua carreira e no mercado brasileiro (por exemplo nos
+ startups com um foco na inteligência artificial).
+ Durante o curso, você escrevera programas em Clojure para aprender vários
+ tópicos que são propriedade de programação procedural e funcional.
+\end_layout
+
+\begin_layout Section
+Duração
+\end_layout
+
+\begin_layout Standard
+Completar este curso dura 2 semanas.
+\end_layout
+
+\begin_layout Section
+Objetivos
+\end_layout
+
+\begin_layout Standard
+Este curso cobre:
+\end_layout
+
+\begin_layout Itemize
+O que é Lisp?
+\end_layout
+
+\begin_layout Itemize
+Começar a usar Clojure
+\end_layout
+
+\begin_layout Itemize
+Os fundamentos de programação
+\end_layout
+
+\begin_layout Itemize
+Os fundamentos de JVM
+\end_layout
+
+\begin_layout Itemize
+Os termos da indústria
+\end_layout
+
+\begin_layout Itemize
+Trabalhar como programador
+\end_layout
+
+\begin_layout Itemize
+Escrever programas em Clojure
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Gerar mesangens do programa
+\end_layout
+
+\begin_layout Itemize
+Fazer a iteração das estruturas de dados na programação funcional
+\end_layout
+
+\begin_layout Itemize
+Entender o conceito dos valores (variáveis) mutáveis e imutáveis
+\end_layout
+
+\begin_layout Itemize
+Importar libraries externo (por exemplo, de Clojure e de Java)
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Conhecimento Atingido
+\end_layout
+
+\begin_layout Standard
+Depois deste curso, você conseguirá:
+\end_layout
+
+\begin_layout Itemize
+Fazer um environment de Clojure (em Windows, OS X, e Linux)
+\end_layout
+
+\begin_layout Itemize
+Criar programas simples escritos em Clojure
+\end_layout
+
+\begin_layout Itemize
+Importar libraries de Java em Clojure
+\end_layout
+
+\begin_layout Itemize
+Usar uma API em Clojure
+\end_layout
+
+\begin_layout Itemize
+Salvar seu código em Git (ou Mercurial)
+\end_layout
+
+\begin_layout Itemize
+Implementar um programa de Clojure online (de cloud)
+\end_layout
+
+\begin_layout Section
+Pré-requisitos
+\end_layout
+
+\begin_layout Itemize
+Ter sucesso neste curso, apenas exige ter uma interesse em saber programar.
+\end_layout
+
+\begin_layout Section
+Materiais exigidos
+\end_layout
+
+\begin_layout Standard
+Para este curso, você precisará:
+\end_layout
+
+\begin_layout Itemize
+Um livro de exercícios (fornecida)
+\end_layout
+
+\begin_layout Itemize
+Um notebook (Se você prefere que não faça desordem no seu notebook, baixe
+ VirtualBox para fazer máquinas virtuais, mas não precisa hardware específica
+ para este curso.)
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Temas que serão discutidos
+\end_layout
+
+\begin_layout Itemize
+Por favor veja a agenda da aula
+\end_layout
+
+\end_body
+\end_document
